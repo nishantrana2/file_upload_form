@@ -1,0 +1,33 @@
+ .Songdews-form {
+    width: 30rem;
+    margin: 2rem auto;
+    max-width: 80%;
+  }
+.Songdew {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.Songdew button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: inherit;
+    background: #ff2058;
+    padding: .5rem 2rem;
+    color: #fff;
+    border: 1px solid #ff2058;
+    margin: .5rem 0;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+@media (min-width: 600px) {
+    .Songdew {
+        width: 500px;
+    }
+}
